@@ -14,7 +14,7 @@ body{
     padding-top: 10%;
 }
 
-.logo{
+.logo a{
     padding-left: 10px;
     margin: 0%;
 }
@@ -40,11 +40,12 @@ header li {
 header a {
     text-decoration: none;
     color: #555;
-    transition: all 0.3s ease 0s;
+    transition: all 3s ease 3s;
 }
 header a:hover {
    
     color: buttontext;
+   
 }
  ul li ul {
       visibility: hidden;
