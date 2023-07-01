@@ -10,6 +10,7 @@
                 // Clear previous suggestions
                 suggestionList.innerHTML = '';
                 noSuggestionsMsg.style.display = 'none';
+                 
 
                 if (searchText !== '') {
                     // Make an AJAX request to the servlet to fetch suggestions

@@ -7,16 +7,21 @@ body{
     
 }
 .quote{
+    justify-content: center;
+    text-align: center;
     font-family:Montserrat;
     font-size:20px;
-    display: inline-block;
-    padding-left: 26%;
+   
+    
+   
     padding-top: 10%;
 }
 
 .logo a{
-    padding-left: 10px;
+    padding-left: 20px;
     margin: 0%;
+    font-family: fantasy;
+    font-size: 30px;
 }
 .logo,.navbar a{
     text-transform: uppercase;
@@ -26,7 +31,7 @@ header {
     justify-content:space-between;
     align-items: center;
     padding: 10px ;
-    box-shadow: 0 1px 8px #ddd;
+  
 }
 
 
@@ -39,7 +44,8 @@ header li {
 
 header a {
     text-decoration: none;
-    color: #555;
+    color: #333;
+    font-size: 17px;
     transition: all 3s ease 3s;
 }
 header a:hover {
@@ -90,7 +96,7 @@ a {
     text-decoration: none;
 
     &:hover {
-        color: #3CA0E7;
+        color: #333;
     }
  
 }
@@ -103,8 +109,10 @@ a {
       display: flex;  
        align-items: center;
        justify-content: center;
-       height: 40px;
+       height: 45px;
        background: transparent;
+       left: 50vw;
+     
      
        
        
@@ -113,7 +121,9 @@ a {
 .search input[type=text]{
         width:700px;
         height:40px;
-        border-radius:25px;  
+        border-radius:25px; 
+        background-color: bisque;
+        opacity: 70%;
         
     }
     .searchbar input{
@@ -125,6 +135,7 @@ a {
     ::placeholder{
         padding-left: 5px;
         color: black;
+        font-size: 15px;
     }
     .searchbar{
        
@@ -133,7 +144,7 @@ a {
        justify-content: center;
         width:100%;
         max-width: 700px;
-     
+        
     }
          
     .search button{  
@@ -145,5 +156,11 @@ a {
         border: none;
         cursor: pointer;
     }
+    .sug {
+        justify-content: center;
+        text-align: center;
+       
+    }
+  
    
    

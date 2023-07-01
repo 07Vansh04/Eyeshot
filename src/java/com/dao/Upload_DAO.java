@@ -28,12 +28,12 @@ Connection con;
 
         try {
 
-            String q = "select image,email from album order by rdate;";
+            String q = "select album.image, user.name from album inner join user on album.email=user.email;";
             Statement smt = con.createStatement();
             ResultSet rs = smt.executeQuery(q);
             while (rs.next()) {
 
-                Photo p = new Photo(rs.getBlob("image"),rs.getString("email"));
+                Photo p = new Photo(rs.getBlob("image"),rs.getString("name"));
                 al.add(p);
 
             }

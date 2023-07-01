@@ -19,7 +19,7 @@
         
     <style>
         body{
-            background-image: url("img/homeing.jpg");
+            background-image: url("img/uploadimg.jpg");
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: cover;
@@ -33,7 +33,7 @@
     <body>
 
         <header class="header">
-            <h3 class="logo">Eyeshot</h3>                  
+            <h3 style="font-family: fantasy; font-size: 30px;padding-top: 0px" class="logo">Eyeshot</h3>                  
             <ul class="navbar">
                 <li><a href="explore.jsp">Explore</a>
                    
@@ -56,12 +56,13 @@
                     </button>
 
 
-                    <ul  id="suggestion-list"></ul>
-                    <p id="no-suggestions-msg">No suggestions found.</p>
+                    
 
 
                 </form>
             </div>
+            <ul  id="suggestion-list"></ul>
+            <h3 style="justify-content: center;text-align: center" id="no-suggestions-msg">No suggestions found.</h3>
 
 
         </div>
