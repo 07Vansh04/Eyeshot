@@ -51,7 +51,8 @@ Connection con;
 
         try {
 
-            String q = "select image from album where email=? order by rdate";
+            String q = "select image,email from album where email=? order by rdate";
+           
             PreparedStatement psmt = con.prepareStatement(q);
             psmt.setString(1, email);
             

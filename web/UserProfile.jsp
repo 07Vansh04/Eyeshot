@@ -110,7 +110,10 @@
 
            
             ArrayList<Photo> al = new Upload_DAO(DatabaseConnection.getConnection()).getImagesByEmail(user.getEmail());
+            
+            out.println();
             for (Photo c : al) {
+               
                 byte [] imageData = c.getBlobData().getBytes(1, (int) c.getBlobData().length());
             String encoded = Base64.getEncoder().encodeToString(imageData);
             String pic = "data:image/jpg;base64," + encoded;
@@ -118,10 +121,10 @@
             
 
         %>
+        <img   src=<%=pic%> />
 
-        <img  src=<%=pic%> />
-
-        <%}%>
+        <%} %>
+        
         </div>
 
 

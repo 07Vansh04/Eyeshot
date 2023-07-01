@@ -63,7 +63,7 @@
 
         %>
 
-        <img   src=<%=pic%> />
+        <img  style="border-radius: 20px;" src=<%=pic%> />
         <%=emailName%>
 
         <%}%>
