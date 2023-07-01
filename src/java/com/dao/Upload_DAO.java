@@ -46,13 +46,14 @@ Connection con;
     }
     
     public ArrayList<Photo> getImagesByEmail(String email) {
+         
 
         ArrayList<Photo> al = new ArrayList<>();
 
         try {
 
             String q = "select image,email from album where email=? order by rdate";
-           
+
             PreparedStatement psmt = con.prepareStatement(q);
             psmt.setString(1, email);
             
@@ -61,6 +62,8 @@ Connection con;
 
                 Photo p = new Photo(rs.getBlob("image"),rs.getString("email"));
                 al.add(p);
+               
+                
 
             }
 

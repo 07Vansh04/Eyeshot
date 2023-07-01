@@ -121,7 +121,7 @@
             
 
         %>
-        <img   src=<%=pic%> />
+        <img  style="border-radius: 10px;" src=<%=pic%> />
 
         <%} %>
         
