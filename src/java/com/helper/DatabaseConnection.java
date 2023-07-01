@@ -20,8 +20,8 @@ public class DatabaseConnection {
             try{
            Class.forName("com.mysql.cj.jdbc.Driver");
            String url="jdbc:mysql://localhost:3306/eyeshot";
-           Connection con=DriverManager.getConnection(url,"root", "vansh@07");
-           
+           Connection con=DriverManager.getConnection(url,"root", "1234");
+         //Password changes by Nikhil Mahajan  
            return con;
             }
         
