@@ -1,5 +1,5 @@
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family:  sans-serif;
     margin: 0%;
     padding: 0%;
     height: 100vh;
@@ -74,7 +74,7 @@ body{
    
     justify-content: center;
     text-align: center;
-    font-family:Montserrat;
+    
     font-size:20px;
     font-weight: 600;
     padding-top: 10%;
@@ -84,7 +84,7 @@ body{
 .logo a{
     padding-left: 20px;
     margin: 0%;
-    font-size: 30px;
+    font-size: 20px;
    
 }
 .logo,.navbar a{

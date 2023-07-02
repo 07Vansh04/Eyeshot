@@ -35,17 +35,12 @@
        
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
         
-        <style>
-              
-        
-                
-            
-        </style>
+     
     </head>
 
 
     <header class="header">
-        <h3 class="logo">Eyeshot</h3>                  
+        <h3 class="logo" style="color: black;">Eyeshot</h3>                  
         <ul class="navbar">
             <li><a href="explore.jsp">Explore</a>
                
