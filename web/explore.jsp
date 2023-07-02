@@ -21,6 +21,11 @@
         body{
             box-sizing: 0px;
         }
+        .name{
+            ccc;border-radius: 10px;
+         
+           
+        }
             
         .allUploads {
             display: flex;
@@ -31,6 +36,7 @@
              gap:15px;
              max-width: 100vw;
              columns: 5 340px;
+             padding: 15px;
               
               
             
@@ -46,7 +52,7 @@
     </style>
     <body>
         <div class="allUploads">
-            <div   class="box">
+            <div  style="" class="box">
 
 
         <%
@@ -63,9 +69,13 @@
 
         %>
 
-        <img  style="border-radius: 20px;" src=<%=pic%> />
-        <%=emailName%>
-
+        <img  style="border-radius: 20px;position: relative;" src=<%=pic%> />
+        <div class="name">
+            <img style="width: 17px;height: 17px;display: inline-block;padding-left: 10px;" src="img/icons8-vintage-camera-50.png" alt=""/>
+            <p style="display: inline-block;padding: 0px;padding-left: 4px;"><%=emailName%></p>
+            
+           
+        </div>
         <%}%>
         </div>
 
