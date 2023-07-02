@@ -22,7 +22,7 @@
             box-sizing: 0px;
         }
         .name{
-            ccc;border-radius: 10px;
+            border-radius: 10px;
          
            
         }

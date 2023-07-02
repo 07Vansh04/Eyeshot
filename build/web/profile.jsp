@@ -44,7 +44,7 @@
             </ul> 
         </header>
 
-        <p class="quote" style="margin-right: 30px"> CAPTURE MOMENTS</p>  
+        <p class="quote" style="margin-right: 30px;font-weight: 600px"> CAPTURE MOMENTS</p>  
         <div class="homeimg">   
             <div class="search" >
                 <form action="SearchImage.jsp" class="searchbar" autocomplete="off">
