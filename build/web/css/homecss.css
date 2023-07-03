@@ -3,6 +3,7 @@ body{
     margin: 0%;
     padding: 0%;
     height: 100vh;
+    color: white;
 
 
 }
@@ -11,14 +12,6 @@ body{
    
     
 }
- 
-
-    @media screen and (max-width: 768px) {
-      .transparent-container {
-        width: 80%;
-        max-width: 400px;
-      }
-    }
 
 
 .topnav a {
@@ -72,15 +65,14 @@ body{
 
 
 .quote{
+   
     justify-content: center;
     text-align: center;
     font-family:Montserrat;
     font-size:20px;
     font-weight: 600;
-
-
-
     padding-top: 10%;
+    
 }
 
 .logo a{
@@ -112,7 +104,7 @@ header a {
     text-decoration: none;
     color: #333;
     font-size: 17px;
-    transition: all 3s ease 3s;
+    
 }
 header a:hover {
 
@@ -151,23 +143,11 @@ ul li ul li {
     border-style: none;
 }
 
-ul li ul li a:hover {
-    padding-left: 10px;
-    border-left: 2px solid #3ca0e7;
-    transition: all 0.3s ease;
-}
 
-a {
 
-    text-decoration: none;
 
-    &:hover {
-        color: #333;
-    }
 
-}
 
-ul li ul li a { transition: all 0.5s ease; }
 
 
 
@@ -222,20 +202,17 @@ ul li ul li a { transition: all 0.5s ease; }
     border: none;
     cursor: pointer;
 }
-.sug {
 
-
-}
 .sug ul{
     list-style-type: none;
     text-transform: capitalize;
-   
+    margin-left: 22%;
     background: transparent;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
     width: fit-content;
-
+    color: white;
     padding-right: 10%;
-
+    border-radius: 100px; 
     border-radius: 10px;
 
 }
@@ -260,7 +237,6 @@ ul li ul li a { transition: all 0.5s ease; }
         height: fit-content;
         background-color: #0b2239;
         padding: 30px;
-        transition: 0.3s;
         text-align: center;
         z-index: -1;
     }
