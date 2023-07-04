@@ -9,7 +9,7 @@
                 font-family: Arial, sans-serif;
                 margin: 0;
                 padding: 0;
-                background-image: url("img/AboutBackground.jpg");
+                background-image: url("img/AboutBackgrounf.jpg");
 
                 background-repeat: no-repeat;
                 background-attachment: fixed;

@@ -2,19 +2,24 @@
 
 .profile-card {
     display: inline-block;
-    width: 300px;
-    border: 2px solid #ccc;
-    border-radius: 10px;
+    width: 250px;
+   
+    border-radius: 20px;
     padding: 20px;
     text-align: center;
-    background-color: grey;
+    background-color: black ;
+    justify-content: center;
+  
+    
     
 }
 
 .image-section img {
-    width: 60%;
-    border-radius: 30%;
+    width: 50%;
+    border-radius: 50px;
     height: 150px;
+    opacity: 1;
+    object-fit: cover;
 }
 
 .name {
